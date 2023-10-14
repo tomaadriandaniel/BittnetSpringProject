@@ -1,0 +1,3 @@
+-- insert into product values(1,'aCode','EUR','productDescription', 12.54,10, true);
+insert into shop_user(username, password, firstname, surname, city, number, street, zipcode) values('user1', 'password1', 'Ana', 'Popescu', 'Bucuresti', 1, 'Aviatorilor', '123456'), ('user2', 'password2', 'Alex', 'Marin', 'Bucuresti', 25, 'Victoriei', '321654');
+insert into user_roles values (1, 'ADMIN'), (1,'EXPEDITOR'), (2, 'CLIENT');

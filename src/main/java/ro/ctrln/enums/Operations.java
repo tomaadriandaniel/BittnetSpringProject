@@ -1,0 +1,5 @@
+package ro.ctrln.enums;
+
+public enum Operations {
+    ADD_PRODUCT, UPDATE_PRODUCT, DELETE_PRODUCT, ADD_STOCK, ADD_ORDER, DELIVER_ORDER, RETURN_ORDER, CANCEL_ORDER
+}
