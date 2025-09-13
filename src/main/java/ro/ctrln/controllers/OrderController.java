@@ -6,6 +6,7 @@ import ro.ctrln.dtos.OrderDTO;
 import ro.ctrln.exceptions.*;
 import ro.ctrln.services.OrderService;
 
+@CrossOrigin(origins = "*") // 🔁 temporar, pentru test
 @RestController
 @RequestMapping("/order")
 @RequiredArgsConstructor

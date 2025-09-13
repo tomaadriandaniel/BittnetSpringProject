@@ -8,6 +8,7 @@ import ro.ctrln.services.ProductService;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*") // 🔁 temporar, pentru test
 @RestController
 @RequestMapping("/product")
 public class ProductController {
