@@ -7,20 +7,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class CorsConfig {
-
-    @Bean
+ @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins(
-                            "http://localhost:5173", 
-                            "https://bittnetshop-frontend.netlify.app" // pentru Netlify mai târziu
-                        )
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                registry.addMapping("/**") // toate rutele
+                        .allowedOrigins("http://localhost:5173") // frontend local
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS") // toate metodele
                         .allowedHeaders("*")
-                        .allowCredentials(false);
+                        .allowCredentials(false)
+                        .maxAge(3600);
             }
         };
     }
