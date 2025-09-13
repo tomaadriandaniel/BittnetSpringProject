@@ -13,6 +13,7 @@ E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\exceptions\Invalid
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\exceptions\InvalidOrderIdException.java
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\dtos\OrderProductDTO.java
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\services\ProductService.java
+E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\config\CorsConfig.java
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\services\OrderService.java
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\entities\User.java
 E:\Exercitii JAVA\BittnetSpringProject\src\main\java\ro\ctrln\exceptions\OrderCancelledException.java
